@@ -1,6 +1,8 @@
+Copyright for portions of project TrayNotification are held by [PlusHaze, 2016] as part of project TrayNotification. All other copyright for project TrayNotification are held by [DeeJack, 2021].
+
 The MIT License (MIT)
 
-Copyright (c) 2016 
+Copyright (c) 2016, PlusHaze.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
