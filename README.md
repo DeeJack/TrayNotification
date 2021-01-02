@@ -6,6 +6,28 @@ _Tray Notification_ is a library for JavaFX that adds easy-to-use tray notificat
 
 There are 5 included notifications and 3 included animations, but you're able to also add your own.
 
+I forked the project to support Java 9+, where JavaFX has been removed from the JDK and a module is needed.
+
+#Usage:
+1) With jar (not recommended): download from the 'Release tab' and include in the project
+2) With maven / gradle: using [Jitpack](https://jitpack.io/):
+- Maven:
+
+```xml
+
+<repositories>
+        <repository>
+		<id>jitpack.io</id>
+                <url>https://jitpack.io</url>
+        </repository>
+</repositories>
+[...]
+<dependency>
+        <groupId>com.github.deejack</groupId>
+	<artifactId>TrayNotification</artifactId>
+	<version>Tag</version>
+</dependency>
+```
 ___
 
 ### Creating a new tray notification
