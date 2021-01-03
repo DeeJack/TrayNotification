@@ -4,7 +4,7 @@
 
     <groupId>com.github.deejack</groupId>
     <artifactId>TrayNotification</artifactId>
-    <version>0.4</version>
+    <version>0.5</version>
 
     <dependencies>
         <dependency>
@@ -21,11 +21,6 @@
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-base</artifactId>
-            <version>11</version>
-        </dependency>
-        <dependency>
-            <groupId>org.openjfx</groupId>
-            <artifactId>javafx-media</artifactId>
             <version>11</version>
         </dependency>
         <dependency>
@@ -51,7 +46,6 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.8.0</version>
                 <configuration>
-                    <release>11</release>
                 </configuration>
             </plugin>
         </plugins>
